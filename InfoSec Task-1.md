@@ -27,8 +27,8 @@ C:\Users\Asus>ssh bandit1@bandit.labs.overthewire.org -p 2220
 
 bandit1@bandit.labs.overthewire.org's password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
-bandit1@bandit:~$ ls
--
+bandit1@bandit:~$ ls - 
+
 bandit1@bandit:~$ cat ./-
 
 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
