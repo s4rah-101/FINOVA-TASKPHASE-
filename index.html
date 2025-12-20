@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Finova Data Viewer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- THEME TOGGLE (CSS ONLY) -->
+<input type="checkbox" id="theme-toggle" hidden>
+
+<div class="dashboard">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <h2 class="logo">Finova</h2>
+
+        <nav class="nav">
+            <a class="active">Dashboard</a>
+            <a>Stocks</a>
+            <a>Crypto</a>
+            <a>Favorites</a>
+            <a>Analytics</a>
+        </nav>
+
+        <!-- THEME SWITCH -->
+        <label for="theme-toggle" class="theme-switch">
+            🌙 Dark / ☀ Light
+        </label>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <!-- TOP BAR -->
+        <header class="topbar">
+            <h1>Finova Data Viewer</h1>
+
+            <div class="top-actions">
+                <input type="text" placeholder="Search AAPL / Bitcoin">
+                <button>Search</button>
+
+                <!-- USER PROFILE -->
+                <div class="profile">
+                    <img src="https://via.placeholder.com/40" alt="User">
+                    <span>Profile</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- SUMMARY CARDS -->
+        <section class="cards">
+            <div class="card">
+                <h3>Selected Asset</h3>
+                <p>—</p>
+            </div>
+            <div class="card">
+                <h3>Current Price</h3>
+                <p>—</p>
+            </div>
+            <div class="card">
+                <h3>Favorites</h3>
+                <p>3 Assets</p>
+            </div>
+        </section>
+
+        <!-- CHART + FAVORITES -->
+        <section class="grid">
+
+            <!-- PRICE TREND -->
+            <div class="panel">
+                <h2>Price Trend</h2>
+                <div class="chart-placeholder">
+                    📈 Price chart will render here
+                </div>
+            </div>
+
+            <!-- FAVORITES -->
+            <div class="panel">
+                <h2>Favorites</h2>
+                <ul class="favorites">
+                    <li>AAPL</li>
+                    <li>TSLA</li>
+                    <li>Bitcoin</li>
+                </ul>
+            </div>
+
+        </section>
+
+    </main>
+</div>
+
+</body>
+</html>
